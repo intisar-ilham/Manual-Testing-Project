@@ -34,6 +34,7 @@ Manual-Testing-Assessment/
 │
 ├── Task_004 - UI & API Testing/
 │   └── Task_004_UI_API_Test.pdf
+│   └── Postman_collection.json
 └── 
 
 ```
