@@ -1,0 +1,98 @@
+{
+  "info": {
+    "_postman_id": "f311f0e2-3f58-4bcb-9f71-6594c719020c",
+    "name": "Manual SQA Testing Project",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54279660",
+    "_collection_link": "https://go.postman.co/collection/54279660-f311f0e2-3f58-4bcb-9f71-6594c719020c?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Product Search",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://demo.evershop.io/accessories/stainless-steel-thermos-black?ajax=true",
+          "protocol": "https",
+          "host": [
+            "demo",
+            "evershop",
+            "io"
+          ],
+          "path": [
+            "accessories",
+            "stainless-steel-thermos-black"
+          ],
+          "query": [
+            {
+              "key": "ajax",
+              "value": "true",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add Variant To Cart",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Add Variant & Quantity To Cart",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Update Color_Quantity",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Cart Check With Cookie",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://demo.evershop.io/cart?ajax=true",
+          "protocol": "https",
+          "host": [
+            "demo",
+            "evershop",
+            "io"
+          ],
+          "path": [
+            "cart"
+          ],
+          "query": [
+            {
+              "key": "ajax",
+              "value": "true",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "View Cookie",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
